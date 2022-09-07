@@ -9,7 +9,7 @@
         "types": [
           "Promise.<String>"
         ],
-        "typesDescription": "<a href=\"Promise.html\">Promise</a>.&lt;<code>String</code>&gt;",
+        "typesDescription": "<code>Promise</code>.&lt;<code>String</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -70,7 +70,7 @@
           "String",
           "Array.<String>"
         ],
-        "typesDescription": "<code>String</code>|<code>Array</code>.&lt;<code>String</code>&gt;",
+        "typesDescription": "<code>String</code> | <code>Array</code>.&lt;<code>String</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -101,7 +101,7 @@
           "Object",
           "Array.<Number>"
         ],
-        "typesDescription": "<code>Object</code>|<code>Array</code>.&lt;<code>Number</code>&gt;",
+        "typesDescription": "<code>Object</code> | <code>Array</code>.&lt;<code>Number</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -132,7 +132,7 @@
           "Object",
           "Array.<Object>"
         ],
-        "typesDescription": "...<code>Object</code>|<code>Array</code>.&lt;<code>Object</code>&gt;",
+        "typesDescription": "...<code>Object</code> | <code>Array</code>.&lt;<code>Object</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -164,7 +164,7 @@
           "RegExp",
           "Array.<String>"
         ],
-        "typesDescription": "<code>String</code>|<code>RegExp</code>|<code>Array</code>.&lt;<code>String</code>&gt;",
+        "typesDescription": "<code>String</code> | <code>RegExp</code> | <code>Array</code>.&lt;<code>String</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -197,7 +197,7 @@
           "Array.<String>",
           "Array.<Object>"
         ],
-        "typesDescription": "<code>String</code>|<code>Object</code>|<code>Array</code>.&lt;<code>String</code>&gt;|<code>Array</code>.&lt;<code>Object</code>&gt;",
+        "typesDescription": "<code>String</code> | <code>Object</code> | <code>Array</code>.&lt;<code>String</code>&gt; | <code>Array</code>.&lt;<code>Object</code>&gt;",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -227,7 +227,7 @@
         "types": [
           "Array.<String>"
         ],
-        "typesDescription": "<code>Array</code>.&lt;<code>String</code>&gt;|<code>undefined</code>",
+        "typesDescription": "<code>Array</code>.&lt;<code>String</code>&gt; | <code>undefined</code>",
         "optional": true,
         "nullable": false,
         "nonNullable": false,

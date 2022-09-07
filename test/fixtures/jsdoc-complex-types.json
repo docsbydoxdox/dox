@@ -18,7 +18,7 @@
             ]
           }
         ],
-        "typesDescription": "<code>number</code>|<code>string</code>|{ name: <code>string</code>, age: <code>number</code> }",
+        "typesDescription": "<code>number</code> | <code>string</code> | {name: <code>string</code>, age: <code>number</code>}",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -42,7 +42,7 @@
           },
           "Array"
         ],
-        "typesDescription": "<code>number</code>|{ name: <code>string</code>, age: <code>number</code> }|<code>Array</code>",
+        "typesDescription": "<code>number</code> | {name: <code>string</code>, age: <code>number</code>} | <code>Array</code>",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -62,7 +62,7 @@
             ]
           }
         ],
-        "typesDescription": "{ name: <code>string</code>, age: <code>number</code> }",
+        "typesDescription": "{name: <code>string</code>, age: <code>number</code>}",
         "optional": false,
         "nullable": false,
         "nonNullable": false,
@@ -124,7 +124,7 @@
             ]
           }
         ],
-        "typesDescription": "<code>number</code>|<code>string</code>|{ length: <code>number</code>, type: { name: { first: <code>string</code>, last: <code>string</code> }, id: <code>number</code>|<code>string</code> } }",
+        "typesDescription": "<code>number</code> | <code>string</code> | {length: <code>number</code>, type: {name: {first: <code>string</code>, last: <code>string</code>}, id: <code>number</code> | <code>string</code>}}",
         "optional": false,
         "nullable": false,
         "nonNullable": false,

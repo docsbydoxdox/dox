@@ -86,7 +86,7 @@
         "types": [
           "Overflow"
         ],
-        "typesDescription": "<a href=\"Overflow.html\">Overflow</a>",
+        "typesDescription": "<code>Overflow</code>",
         "optional": false,
         "nullable": false,
         "nonNullable": false,

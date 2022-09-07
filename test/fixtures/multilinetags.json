@@ -456,7 +456,7 @@
       {
         "type": "example",
         "string": "    test(one);\n    test(two);",
-        "html": "<pre><code>test(one);\ntest(two);</code></pre>"
+        "html": "<pre><code>test(one);\ntest(two);\n</code></pre>"
       }
     ],
     "description": {
