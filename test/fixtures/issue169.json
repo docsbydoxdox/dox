@@ -1,0 +1,35 @@
+[
+  {
+    "tags": [
+      {
+        "type": "fileoverview",
+        "string": "Takes two options objects and merges them",
+        "html": "<p>Takes two options objects and merges them</p>"
+      },
+      {
+        "type": "author",
+        "string": "Scott Nath",
+        "html": "<p>Scott Nath</p>"
+      },
+      {
+        "type": "requires",
+        "string": "NPM:lodash.merge",
+        "html": "<p>NPM:lodash.merge</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 8,
+    "code": "'use strict';",
+    "ctx": false
+  }
+]

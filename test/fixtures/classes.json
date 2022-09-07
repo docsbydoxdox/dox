@@ -1,0 +1,422 @@
+[
+  {
+    "tags": [
+      {
+        "type": "class",
+        "string": "FooBar",
+        "html": "<p>FooBar</p>"
+      },
+      {
+        "type": "extends",
+        "string": "Foo.Baz",
+        "otherClass": "Foo.Baz",
+        "html": "<p>Foo.Baz</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>A Foo.</p>",
+      "summary": "<p>A Foo.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": true,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 7,
+    "code": "export default class FooBar extends Foo.Baz {",
+    "ctx": {
+      "type": "class",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "FooBar",
+      "extends": "Foo.Baz",
+      "string": "new FooBar()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "constructor",
+        "string": "",
+        "html": ""
+      },
+      {
+        "type": "param",
+        "string": "{Object} options constructor options",
+        "name": "options",
+        "description": "<p>constructor options</p>",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "<p>construct a Foo</p>",
+      "summary": "<p>construct a Foo</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": true,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 9,
+    "codeStart": 14,
+    "code": "constructor(options) {\n    this.options = options\n}",
+    "ctx": {
+      "type": "constructor",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "constructor",
+      "string": "FooBar.prototype.constructor()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{Overflow}",
+        "types": [
+          "Overflow"
+        ],
+        "typesDescription": "<a href=\"Overflow.html\">Overflow</a>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Overflow}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Method of the Foo class.</p>",
+      "summary": "<p>Method of the Foo class.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 18,
+    "codeStart": 22,
+    "code": "bar() {\n    return 99999999999999999999999999999999999999999999999999999999999999999\n}",
+    "ctx": {
+      "type": "method",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "bar",
+      "string": "FooBar.prototype.bar()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{String}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Static method of the Foo class.</p>",
+      "summary": "<p>Static method of the Foo class.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 26,
+    "codeStart": 30,
+    "code": "static staticMethod() {\n  return 'static method'\n}",
+    "ctx": {
+      "type": "method",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "staticMethod",
+      "string": "FooBar.staticMethod()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{String}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Static generator method of the Foo class.</p>",
+      "summary": "<p>Static generator method of the Foo class.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 34,
+    "codeStart": 38,
+    "code": "static *staticGeneratorMethod() {\n  return 'static method'\n}",
+    "ctx": {
+      "type": "method",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "*staticGeneratorMethod",
+      "string": "FooBar.*staticGeneratorMethod()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{String}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Generator method with computed name.</p>",
+      "summary": "<p>Generator method with computed name.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 42,
+    "codeStart": 46,
+    "code": "* [Symbol.iterator]() {\n  for (let arg of this.args) yield arg\n}",
+    "ctx": {
+      "type": "method",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "*[Symbol.iterator]",
+      "string": "FooBar.prototype.*[Symbol.iterator]()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Setter for the blah property.</p>",
+      "summary": "<p>Setter for the blah property.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 50,
+    "codeStart": 53,
+    "code": "set blah() {\n    this.blah = \"blah\"\n}",
+    "ctx": {
+      "type": "property",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "blah",
+      "string": "FooBar.prototype.blah"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{String}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Getter for the blah property.</p>",
+      "summary": "<p>Getter for the blah property.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 57,
+    "codeStart": 61,
+    "code": "get blah() {\n    return this.blah\n}\n\n}",
+    "ctx": {
+      "type": "property",
+      "constructor": "FooBar",
+      "cons": "FooBar",
+      "name": "blah",
+      "string": "FooBar.prototype.blah"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "class",
+        "string": "Baz",
+        "html": "<p>Baz</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": true,
+    "isEvent": false,
+    "ignore": false,
+    "line": 67,
+    "codeStart": 70,
+    "code": "export class Baz extends FooBar {",
+    "ctx": {
+      "type": "class",
+      "constructor": "Baz",
+      "cons": "Baz",
+      "name": "Baz",
+      "extends": "FooBar",
+      "string": "new Baz()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Object} options constructor options",
+        "name": "options",
+        "description": "<p>constructor options</p>",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 72,
+    "codeStart": 75,
+    "code": "constructor(options) {\n    this.options = options\n}\n}",
+    "ctx": {
+      "type": "constructor",
+      "constructor": "Baz",
+      "cons": "Baz",
+      "name": "constructor",
+      "string": "Baz.prototype.constructor()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "class",
+        "string": "Lorem",
+        "html": "<p>Lorem</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": true,
+    "isEvent": false,
+    "ignore": false,
+    "line": 80,
+    "codeStart": 83,
+    "code": "class Lorem {\n    constructor(options) {\n        this.options = options\n    }\n}",
+    "ctx": {
+      "type": "class",
+      "constructor": "Lorem",
+      "cons": "Lorem",
+      "name": "Lorem",
+      "extends": "",
+      "string": "new Lorem()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "class",
+        "string": "Lorem",
+        "html": "<p>Lorem</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": true,
+    "isEvent": false,
+    "ignore": false,
+    "line": 89,
+    "codeStart": 92,
+    "code": "class Ipsum extends mixin(Foo.Bar, Baz) {\n    constructor(options) {\n        this.options = options\n    }\n}",
+    "ctx": {
+      "type": "class",
+      "constructor": "Ipsum",
+      "cons": "Ipsum",
+      "name": "Ipsum",
+      "extends": "mixin(Foo.Bar, Baz)",
+      "string": "new Ipsum()"
+    }
+  }
+]

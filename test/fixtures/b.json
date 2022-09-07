@@ -1,0 +1,82 @@
+[
+  {
+    "tags": [
+      {
+        "type": "type",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String}</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Library version.</p>",
+      "summary": "<p>Library version.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 9,
+    "code": "exports.version = '0.0.1';",
+    "ctx": {
+      "type": "property",
+      "receiver": "exports",
+      "name": "version",
+      "value": "'0.0.1'",
+      "string": "exports.version"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Object} config An object that must provide a `requestExecutor` field.",
+        "name": "config",
+        "description": "<p>An object that must provide a <code>requestExecutor</code> field.</p>",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 12,
+    "codeStart": 15,
+    "code": "exports.parse = function(str) {\n  return \"wahoo\";\n}",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parse",
+      "string": "exports.parse()"
+    }
+  }
+]

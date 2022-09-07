@@ -1,0 +1,167 @@
+[
+  {
+    "tags": [
+      {
+        "type": "type",
+        "string": "{Object}",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{Object}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Targeted literal</p>",
+      "summary": "<p>Targeted literal</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 6,
+    "code": "var Target = {",
+    "ctx": {
+      "type": "declaration",
+      "name": "Target",
+      "value": "{",
+      "string": "Target"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "type",
+        "string": "{Object}",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{Object}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Sub object</p>",
+      "summary": "<p>Sub object</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 12,
+    "code": "options: {\n\n},",
+    "ctx": {
+      "type": "property",
+      "name": "options",
+      "value": "{",
+      "string": "options"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{boolean}",
+        "types": [
+          "boolean"
+        ],
+        "typesDescription": "<code>boolean</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{boolean}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>This function surely does something</p>",
+      "summary": "<p>This function surely does something</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 16,
+    "codeStart": 20,
+    "code": "doSomething: function () {\n\treturn true;\n},",
+    "ctx": {
+      "type": "method",
+      "name": "doSomething",
+      "string": "doSomething()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>And them something else</p>",
+      "summary": "<p>And them something else</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 24,
+    "codeStart": 27,
+    "code": "doSomethingElse: function doSomethingElse () {\n\n},",
+    "ctx": {
+      "type": "method",
+      "name": "doSomethingElse",
+      "string": "doSomethingElse()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "type",
+        "string": "{function}",
+        "types": [
+          "function"
+        ],
+        "typesDescription": "<code>function</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{function}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>This is the result of doing anything</p>",
+      "summary": "<p>This is the result of doing anything</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 31,
+    "codeStart": 35,
+    "code": "result: doAnything()\n\n};",
+    "ctx": {
+      "type": "property",
+      "name": "result",
+      "value": "doAnything()",
+      "string": "result"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "line": 1,
+    "codeStart": null,
+    "code": "function foo() {\n  doSomething();\n}",
+    "ctx": {
+      "type": "function",
+      "name": "foo",
+      "string": "foo()"
+    }
+  }
+]

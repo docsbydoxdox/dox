@@ -1,0 +1,170 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>One</p>",
+      "summary": "<p>One</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4,
+    "code": "function one() {\n\tvar a = \"String with double quotes containing a single quote: '\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "one",
+      "string": "one()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Two</p>",
+      "summary": "<p>Two</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 11,
+    "code": "function two() {\n\tvar a = \"String with double quotes containing an escaped single quote: \\'\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "two",
+      "string": "two()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Three</p>",
+      "summary": "<p>Three</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 15,
+    "codeStart": 18,
+    "code": "function three() {\n\tvar a = \"String with double quotes containing an escaped double quote: \\\"\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "three",
+      "string": "three()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Four</p>",
+      "summary": "<p>Four</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 22,
+    "codeStart": 25,
+    "code": "function four() {\n\tvar a = 'String with single quotes containing a double quote: \"';\n}",
+    "ctx": {
+      "type": "function",
+      "name": "four",
+      "string": "four()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Five</p>",
+      "summary": "<p>Five</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 29,
+    "codeStart": 32,
+    "code": "function five() {\n\tvar a = 'String with single quotes containing an escaped double quote: \\\"';\n}",
+    "ctx": {
+      "type": "function",
+      "name": "five",
+      "string": "five()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Six</p>",
+      "summary": "<p>Six</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 36,
+    "codeStart": 39,
+    "code": "function six() {\n\tvar a = 'String with single quotes containing an escaped single quote: \\'';\n}",
+    "ctx": {
+      "type": "function",
+      "name": "six",
+      "string": "six()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Seven</p>",
+      "summary": "<p>Seven</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 43,
+    "codeStart": 46,
+    "code": "function seven() {\n\tvar contents = 'contents';\n\tvar a = `Template 'string' with \"quoted\" ${contents}.`;\n}",
+    "ctx": {
+      "type": "function",
+      "name": "seven",
+      "string": "seven()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Eight</p>",
+      "summary": "<p>Eight</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 51,
+    "codeStart": 54,
+    "code": "function eight() {\n\tvar a = \"Last function that should also get included\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "eight",
+      "string": "eight()"
+    }
+  }
+]

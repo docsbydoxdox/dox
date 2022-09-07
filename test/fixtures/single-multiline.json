@@ -1,0 +1,87 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Normal multiline doc block</p>",
+      "summary": "<p>Normal multiline doc block</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 6,
+    "code": "var a;",
+    "ctx": false
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Single-line multiline block</p>",
+      "summary": "<p>Single-line multiline block</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 10,
+    "code": "var b;",
+    "ctx": false
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Unspaced-line multiline block</p>",
+      "summary": "<p>Unspaced-line multiline block</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 12,
+    "codeStart": 14,
+    "code": "var c;\n\nfunction (a",
+    "ctx": false
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>argument A</p>",
+      "summary": "<p>argument A</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 16,
+    "codeStart": 17,
+    "code": "b",
+    "ctx": false
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>argument B</p>",
+      "summary": "<p>argument B</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 16,
+    "codeStart": 17,
+    "code": "{\n\n}",
+    "ctx": false
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Array} bar",
+        "name": "bar",
+        "description": "",
+        "types": [
+          "Array"
+        ],
+        "typesDescription": "<code>Array</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{Array} bar</p>"
+      },
+      {
+        "type": "constructor",
+        "string": "",
+        "html": ""
+      }
+    ],
+    "description": {
+      "full": "<p>Luke, I am your constructor.</p>",
+      "summary": "<p>Luke, I am your constructor.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": true,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 3,
+    "codeStart": 9,
+    "code": "function Foo(bar){\n  this.bar = bar;\n  this._seed = Math.random();\n}",
+    "ctx": {
+      "type": "constructor",
+      "name": "Foo",
+      "string": "Foo()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "namespace",
+        "string": "Foo",
+        "html": "<p>Foo</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>To be relevant or not to be. This is the question.</p>",
+      "summary": "<p>To be relevant or not to be. This is the question.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 14,
+    "codeStart": 19,
+    "code": "Foo.prototype = {",
+    "ctx": {
+      "type": "prototype",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "Foo",
+      "string": "Foo.prototype"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "returns",
+        "string": "{Number}",
+        "types": [
+          "Number"
+        ],
+        "typesDescription": "<code>Number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Number}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Returns the first item.</p>",
+      "summary": "<p>Returns the first item.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 20,
+    "codeStart": 25,
+    "code": "getFirst: function getFirstBarItem(){\n  return this.bar[0];\n},",
+    "ctx": {
+      "type": "method",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "getFirst",
+      "string": "Foo.prototype.getFirst()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "see",
+        "string": "Foo.prototype.getFirst",
+        "local": "Foo.prototype.getFirst",
+        "html": "<p>Foo.prototype.getFirst</p>"
+      },
+      {
+        "type": "returns",
+        "string": "{Number}",
+        "types": [
+          "Number"
+        ],
+        "typesDescription": "<code>Number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Number}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Returns the first item.<br />\nActs as an ES5 alias of <code>Foo.prototype.getFirst</code> for feature sake.</p>",
+      "summary": "<p>Returns the first item.<br />\nActs as an ES5 alias of <code>Foo.prototype.getFirst</code> for feature sake.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 28,
+    "codeStart": 35,
+    "code": "get first(){\n  return this.bar[0];\n},",
+    "ctx": {
+      "type": "property",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "first",
+      "string": "Foo.prototype.first"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Number} s",
+        "name": "s",
+        "description": "",
+        "types": [
+          "Number"
+        ],
+        "typesDescription": "<code>Number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{Number} s</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Sets an internal property.</p>",
+      "summary": "<p>Sets an internal property.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 38,
+    "codeStart": 43,
+    "code": "set seed(s){\n  this._seed = s;\n},",
+    "ctx": {
+      "type": "property",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "seed",
+      "string": "Foo.prototype.seed"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "returns",
+        "string": "{number}",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{number}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Anonymous function on property.</p>",
+      "summary": "<p>Anonymous function on property.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 46,
+    "codeStart": 51,
+    "code": "random: function(){\n  return this._seed * 1337;\n}\n};",
+    "ctx": {
+      "type": "method",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "random",
+      "string": "Foo.prototype.random()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "returns",
+        "string": "{string}",
+        "types": [
+          "string"
+        ],
+        "typesDescription": "<code>string</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{string}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>My only purpose is to check we do not inherit from any parent context.</p>",
+      "summary": "<p>My only purpose is to check we do not inherit from any parent context.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 56,
+    "codeStart": 61,
+    "code": "function breakingBad() {\n  return \"Meth\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "breakingBad",
+      "string": "breakingBad()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "returns",
+        "string": "{Number}",
+        "types": [
+          "Number"
+        ],
+        "typesDescription": "<code>Number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Number}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Returns the last item.</p>\n<pre><code class=\"lang-javascript\">var f = new Foo([1, 5, 10]);\n\nf.getLast() === 10;\n</code></pre>",
+      "summary": "<p>Returns the last item.</p>",
+      "body": "<pre><code class=\"lang-javascript\">var f = new Foo([1, 5, 10]);\n\nf.getLast() === 10;\n</code></pre>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 65,
+    "codeStart": 76,
+    "code": "Foo.prototype.getLast = function getLast(){\n  return this.bar[this.bar.length];\n};",
+    "ctx": {
+      "type": "method",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "getLast",
+      "string": "Foo.prototype.getLast()"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} a</p>"
+      },
+      {
+        "type": "param",
+        "string": "{Number} b",
+        "name": "b",
+        "description": "",
+        "types": [
+          "Number"
+        ],
+        "typesDescription": "<code>Number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{Number} b</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Function Name</p>",
+      "summary": "<p>Function Name</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 7,
+    "code": "function fnName(a, b) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "fnName",
+      "string": "fnName()"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>myspecialawesomelinter asi:true</p>",
+      "summary": "<p>myspecialawesomelinter asi:true</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 3,
+    "code": "var test;",
+    "ctx": false
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>something else</p>",
+      "summary": "<p>something else</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 5,
+    "codeStart": 6
+  }
+]

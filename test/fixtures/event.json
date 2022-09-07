@@ -1,0 +1,74 @@
+[
+  {
+    "tags": [
+      {
+        "type": "fires",
+        "string": "Hurl#snowball",
+        "html": "<p>Hurl#snowball</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Throw a snowball.</p>",
+      "summary": "<p>Throw a snowball.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 6,
+    "code": "Hurl.prototype.snowball = function() {",
+    "ctx": {
+      "type": "method",
+      "constructor": "Hurl",
+      "cons": "Hurl",
+      "name": "snowball",
+      "string": "Hurl.prototype.snowball()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "event",
+        "string": "Hurl#snowball",
+        "html": "<p>Hurl#snowball</p>"
+      },
+      {
+        "type": "property",
+        "string": "{boolean} isPacked - Indicates whether the snowball is tightly packed.",
+        "name": "isPacked",
+        "description": "<ul>\n<li>Indicates whether the snowball is tightly packed.</li>\n</ul>",
+        "types": [
+          "boolean"
+        ],
+        "typesDescription": "<code>boolean</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Snowball event.</p>",
+      "summary": "<p>Snowball event.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": true,
+    "ignore": false,
+    "line": 7,
+    "codeStart": 14,
+    "code": "this.emit('snowball', {\n    isPacked: this._snowball.isPacked\n});\n};",
+    "ctx": false
+  }
+]

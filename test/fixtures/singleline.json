@@ -1,0 +1,23 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Code below must contain the useful comment</p>",
+      "summary": "<p>Code below must contain the useful comment</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4,
+    "code": "function foo() {\n  // Maybe useful\n  doSomething();\n}",
+    "ctx": {
+      "type": "function",
+      "name": "foo",
+      "string": "foo()"
+    }
+  }
+]

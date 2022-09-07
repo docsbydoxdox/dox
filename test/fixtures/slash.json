@@ -1,0 +1,46 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>One</p>",
+      "summary": "<p>One</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4,
+    "code": "var one = '//';",
+    "ctx": {
+      "type": "declaration",
+      "name": "one",
+      "value": "'//'",
+      "string": "one"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Two</p>",
+      "summary": "<p>Two</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 6,
+    "codeStart": 9,
+    "code": "var two = 2;",
+    "ctx": {
+      "type": "declaration",
+      "name": "two",
+      "value": "2",
+      "string": "two"
+    }
+  }
+]

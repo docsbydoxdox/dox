@@ -1,0 +1,73 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Description.</p>\n<h2>Some examples</h2>\n<p>foo</p>\n<h2>Some longer thing for example</h2>\n<p>bar</p>",
+      "summary": "<p>Description.</p>",
+      "body": "<h2>Some examples</h2>\n<p>foo</p>\n<h2>Some longer thing for example</h2>\n<p>bar</p>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 14
+  },
+  {
+    "tags": [
+      {
+        "type": "description",
+        "string": "Description 2",
+        "full": "Description 2",
+        "summary": "Description 2",
+        "body": "",
+        "html": "<p>Description 2</p>"
+      },
+      {
+        "type": "description",
+        "string": "\nDescription 3",
+        "full": "Description 3",
+        "summary": "Description 3",
+        "body": "",
+        "html": "<p>Description 3</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Description 1</p>",
+      "summary": "<p>Description 1</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 15,
+    "codeStart": 23
+  },
+  {
+    "tags": [
+      {
+        "type": "description",
+        "string": "\nSomething Else",
+        "full": "Something Else",
+        "summary": "Something Else",
+        "body": "",
+        "html": "<p>Something Else</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Something Else</p>",
+      "summary": "<p>Something Else</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 24,
+    "codeStart": 28
+  }
+]

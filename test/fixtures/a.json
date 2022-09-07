@@ -1,0 +1,40 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>A<br />\nCopyright (c) 2010 Author Name <Author Email><br />\nMIT Licensed</p>",
+      "summary": "<p>A<br />\nCopyright (c) 2010 Author Name <Author Email><br />\nMIT Licensed</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": true,
+    "line": 2,
+    "codeStart": 7
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Library version.</p>",
+      "summary": "<p>Library version.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 12,
+    "code": "exports.version = '0.0.1';",
+    "ctx": {
+      "type": "property",
+      "receiver": "exports",
+      "name": "version",
+      "value": "'0.0.1'",
+      "string": "exports.version"
+    }
+  }
+]

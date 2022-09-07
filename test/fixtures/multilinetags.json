@@ -1,0 +1,543 @@
+[
+  {
+    "tags": [
+      {
+        "type": "sample",
+        "string": "one\ntwo\nthree",
+        "html": "<p>one<br />\ntwo<br />\nthree</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>only</p>",
+      "summary": "<p>only</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 9,
+    "code": "function only() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "only",
+      "string": "only()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "sample",
+        "string": "one\ntwo\nthree",
+        "html": "<p>one<br />\ntwo<br />\nthree</p>"
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>first</p>",
+      "summary": "<p>first</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 12,
+    "codeStart": 21,
+    "code": "function first() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "first",
+      "string": "first()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "sample",
+        "string": "one\ntwo\nthree",
+        "html": "<p>one<br />\ntwo<br />\nthree</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>last</p>",
+      "summary": "<p>last</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 24,
+    "codeStart": 33,
+    "code": "function last() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "last",
+      "string": "last()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "sample",
+        "string": "one\ntwo\nthree",
+        "html": "<p>one<br />\ntwo<br />\nthree</p>"
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>mid</p>",
+      "summary": "<p>mid</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 36,
+    "codeStart": 46,
+    "code": "function mid() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "mid",
+      "string": "mid()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} foo\none\ntwo\nthree",
+        "name": "foo",
+        "description": "<p>one<br />\ntwo<br />\nthree</p>",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "<p>only</p>",
+      "summary": "<p>only</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 49,
+    "codeStart": 57,
+    "code": "function onlyParam() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "onlyParam",
+      "string": "onlyParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} foo\none\ntwo\nthree",
+        "name": "foo",
+        "description": "<p>one<br />\ntwo<br />\nthree</p>",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>first</p>",
+      "summary": "<p>first</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 60,
+    "codeStart": 69,
+    "code": "function firstParam() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "firstParam",
+      "string": "firstParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "param",
+        "string": "{String} foo\none\ntwo\nthree",
+        "name": "foo",
+        "description": "<p>one<br />\ntwo<br />\nthree</p>",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "<p>last</p>",
+      "summary": "<p>last</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 72,
+    "codeStart": 81,
+    "code": "function lastParam() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "lastParam",
+      "string": "lastParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "param",
+        "string": "{String} foo\none\ntwo\nthree",
+        "name": "foo",
+        "description": "<p>one<br />\ntwo<br />\nthree</p>",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>mid</p>",
+      "summary": "<p>mid</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 84,
+    "codeStart": 94,
+    "code": "function midParam() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "midParam",
+      "string": "midParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}\none\ntwo\nthree",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "<p>one<br />\ntwo<br />\nthree</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>only</p>",
+      "summary": "<p>only</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 97,
+    "codeStart": 105,
+    "code": "function onlyReturn() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "onlyReturn",
+      "string": "onlyReturn()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{String}\none\ntwo\nthree",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "<p>one<br />\ntwo<br />\nthree</p>"
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>first</p>",
+      "summary": "<p>first</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 108,
+    "codeStart": 117,
+    "code": "function firstReturn() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "firstReturn",
+      "string": "firstReturn()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "return",
+        "string": "{String}\none\ntwo\nthree",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "<p>one<br />\ntwo<br />\nthree</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>last</p>",
+      "summary": "<p>last</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 120,
+    "codeStart": 129,
+    "code": "function lastReturn() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "lastReturn",
+      "string": "lastReturn()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "foo",
+        "string": "first",
+        "html": "<p>first</p>"
+      },
+      {
+        "type": "return",
+        "string": "{String}\none\ntwo\nthree",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "<p>one<br />\ntwo<br />\nthree</p>"
+      },
+      {
+        "type": "bar",
+        "string": "last",
+        "html": "<p>last</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>mid</p>",
+      "summary": "<p>mid</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 132,
+    "codeStart": 142,
+    "code": "function midReturn() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "midReturn",
+      "string": "midReturn()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "example",
+        "string": "    test(one);\n    test(two);",
+        "html": "<pre><code>test(one);\ntest(two);</code></pre>"
+      }
+    ],
+    "description": {
+      "full": "<p>example</p>",
+      "summary": "<p>example</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 145,
+    "codeStart": 152,
+    "code": "function example() {\n}",
+    "ctx": {
+      "type": "function",
+      "name": "example",
+      "string": "example()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "tag-1",
+        "string": "foo",
+        "html": "<p>foo</p>"
+      },
+      {
+        "type": "tag-2",
+        "string": "bar",
+        "html": "<p>bar</p>"
+      },
+      {
+        "type": "tag-3",
+        "string": "baz",
+        "html": "<p>baz</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 155,
+    "codeStart": 161
+  },
+  {
+    "tags": [
+      {
+        "type": "tag-1",
+        "string": "foo",
+        "html": "<p>foo</p>"
+      },
+      {
+        "type": "tag-2",
+        "string": "bar",
+        "html": "<p>bar</p>"
+      },
+      {
+        "type": "tag-3",
+        "string": "baz",
+        "html": "<p>baz</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 162,
+    "codeStart": 171
+  }
+]

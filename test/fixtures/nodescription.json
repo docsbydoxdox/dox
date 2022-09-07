@@ -1,0 +1,37 @@
+[
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{number} Digit",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "<p>Digit</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4,
+    "code": "function foo() {\n  return 1;\n}",
+    "ctx": {
+      "type": "function",
+      "name": "foo",
+      "string": "foo()"
+    }
+  }
+]

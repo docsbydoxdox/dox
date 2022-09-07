@@ -1,0 +1,60 @@
+[
+  {
+    "tags": [
+      {
+        "type": "throws",
+        "string": "An error message.",
+        "types": [],
+        "description": "<p>An error message.</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Raise an exception for fun.</p>",
+      "summary": "<p>Raise an exception for fun.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 6,
+    "code": "function crashMe() {\n    throw \"Bang!\";\n}",
+    "ctx": {
+      "type": "function",
+      "name": "crashMe",
+      "string": "crashMe()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "throws",
+        "string": "{TypeError} Invalid argument.",
+        "types": [
+          "TypeError"
+        ],
+        "description": "<p>Invalid argument.</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Validate user input.</p>",
+      "summary": "<p>Validate user input.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 10,
+    "codeStart": 15,
+    "code": "function validateUserInput(input) {\n    if (typeof input !== \"string\")) {\n        throw new TypeError(\"Input is not a string\");\n    }\n    return true;\n}",
+    "ctx": {
+      "type": "function",
+      "name": "validateUserInput",
+      "string": "validateUserInput()"
+    }
+  }
+]

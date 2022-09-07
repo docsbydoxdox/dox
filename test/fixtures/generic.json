@@ -1,0 +1,250 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Promise<String>} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "Promise.<String>"
+        ],
+        "typesDescription": "<a href=\"Promise.html\">Promise</a>.&lt;<code>String</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String[]} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "Array.<String>"
+        ],
+        "typesDescription": "<code>Array</code>.&lt;<code>String</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 5,
+    "codeStart": 8
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String|String[]} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "String",
+          "Array.<String>"
+        ],
+        "typesDescription": "<code>String</code>|<code>Array</code>.&lt;<code>String</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 9,
+    "codeStart": 12
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{Object|Array<Number>} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "Object",
+          "Array.<Number>"
+        ],
+        "typesDescription": "<code>Object</code>|<code>Array</code>.&lt;<code>Number</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 13,
+    "codeStart": 16
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{...Object|Object[]} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "Object",
+          "Array.<Object>"
+        ],
+        "typesDescription": "...<code>Object</code>|<code>Array</code>.&lt;<code>Object</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": true
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 17,
+    "codeStart": 20
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String|RegExp|String[]} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "String",
+          "RegExp",
+          "Array.<String>"
+        ],
+        "typesDescription": "<code>String</code>|<code>RegExp</code>|<code>Array</code>.&lt;<code>String</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 21,
+    "codeStart": 24
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String|Object|String[]|Object[]} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "String",
+          "Object",
+          "Array.<String>",
+          "Array.<Object>"
+        ],
+        "typesDescription": "<code>String</code>|<code>Object</code>|<code>Array</code>.&lt;<code>String</code>&gt;|<code>Array</code>.&lt;<code>Object</code>&gt;",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 25,
+    "codeStart": 28
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String[]|undefined} test Test",
+        "name": "test",
+        "description": "<p>Test</p>",
+        "types": [
+          "Array.<String>"
+        ],
+        "typesDescription": "<code>Array</code>.&lt;<code>String</code>&gt;|<code>undefined</code>",
+        "optional": true,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 29,
+    "codeStart": 32
+  }
+]

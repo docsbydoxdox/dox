@@ -1,0 +1,338 @@
+[
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{number|string|{name:string,age:number}} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number",
+          "string",
+          {
+            "name": [
+              "string"
+            ],
+            "age": [
+              "number"
+            ]
+          }
+        ],
+        "typesDescription": "<code>number</code>|<code>string</code>|{ name: <code>string</code>, age: <code>number</code> }",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{number|string|{name:string,age:number}} a</p>"
+      },
+      {
+        "type": "param",
+        "string": "{number|{name:string,age:number}|Array} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number",
+          {
+            "name": [
+              "string"
+            ],
+            "age": [
+              "number"
+            ]
+          },
+          "Array"
+        ],
+        "typesDescription": "<code>number</code>|{ name: <code>string</code>, age: <code>number</code> }|<code>Array</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{number|{name:string,age:number}|Array} a</p>"
+      },
+      {
+        "type": "returns",
+        "string": "{{name:string,age:number}}",
+        "types": [
+          {
+            "name": [
+              "string"
+            ],
+            "age": [
+              "number"
+            ]
+          }
+        ],
+        "typesDescription": "{ name: <code>string</code>, age: <code>number</code> }",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{{name:string,age:number}}</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 7,
+    "code": "function complexTypeParamAndReturn(a, b) {\n  return {\n    name: 'Test',\n    age: 30\n  }\n}",
+    "ctx": {
+      "type": "function",
+      "name": "complexTypeParamAndReturn",
+      "string": "complexTypeParamAndReturn()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{number | string | {length: number, type: {name: {first: string, last: string}, id: number | string}}} a Description of param",
+        "name": "a",
+        "description": "<p>Description of param</p>",
+        "types": [
+          "number",
+          "string",
+          {
+            "length": [
+              "number"
+            ],
+            "type": [
+              {
+                "name": [
+                  {
+                    "first": [
+                      "string"
+                    ],
+                    "last": [
+                      "string"
+                    ]
+                  }
+                ],
+                "id": [
+                  "number",
+                  "string"
+                ]
+              }
+            ]
+          }
+        ],
+        "typesDescription": "<code>number</code>|<code>string</code>|{ length: <code>number</code>, type: { name: { first: <code>string</code>, last: <code>string</code> }, id: <code>number</code>|<code>string</code> } }",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 14,
+    "codeStart": 18,
+    "code": "function nestedComplexTypeParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "nestedComplexTypeParam",
+      "string": "nestedComplexTypeParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{number=} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>|<code>undefined</code>",
+        "optional": true,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{number=} a</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 22,
+    "codeStart": 26,
+    "code": "function optionalParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "optionalParam",
+      "string": "optionalParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{?number} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>|<code>null</code>",
+        "optional": false,
+        "nullable": true,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{?number} a</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 30,
+    "codeStart": 34,
+    "code": "function nullableParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "nullableParam",
+      "string": "nullableParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{!number} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "!<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": true,
+        "variable": false,
+        "html": "<p>{!number} a</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 38,
+    "codeStart": 42,
+    "code": "function nonNullableParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "nonNullableParam",
+      "string": "nonNullableParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{...number} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "...<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": true,
+        "html": "<p>{...number} a</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 46,
+    "codeStart": 50,
+    "code": "function variableParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "variableParam",
+      "string": "variableParam()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{?...number=} a",
+        "name": "a",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "...<code>number</code>|<code>undefined</code>|<code>null</code>",
+        "optional": true,
+        "nullable": true,
+        "nonNullable": false,
+        "variable": true,
+        "html": "<p>{?...number=} a</p>"
+      }
+    ],
+    "description": {
+      "full": "",
+      "summary": "",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 54,
+    "codeStart": 58,
+    "code": "function optionalVariableNullableParam(a) {\n\n}",
+    "ctx": {
+      "type": "function",
+      "name": "optionalVariableNullableParam",
+      "string": "optionalVariableNullableParam()"
+    }
+  }
+]

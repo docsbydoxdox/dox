@@ -1,0 +1,65 @@
+[
+  {
+    "tags": [
+      {
+        "type": "name",
+        "string": "is arbitrary",
+        "html": "<p>is arbitrary</p>"
+      },
+      {
+        "type": "param",
+        "string": "{String} str",
+        "name": "str",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} str</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Array}",
+        "types": [
+          "Array"
+        ],
+        "typesDescription": "<code>Array</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Array}</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse tag type string &quot;{Array|Object}&quot; etc.</p>",
+      "summary": "<p>Parse tag type string &quot;{Array|Object}&quot; etc.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 11,
+    "code": "exports.parseTagTypes = function(str) {\n  return str\n    .replace(/[{}]/g, '')\n    .split(/ *[|,\\/] */);\n};",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseTagTypes",
+      "string": "exports.parseTagTypes()"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "tags": [
+      {
+        "type": "constructor",
+        "string": "",
+        "html": ""
+      },
+      {
+        "type": "param",
+        "string": "{String} bar",
+        "name": "bar",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} bar</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Does a lot of foo</p>",
+      "summary": "<p>Does a lot of foo</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": true,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 2,
+    "codeStart": 8,
+    "code": "function Foo(bar) {\n  this.bar = bar\n}",
+    "ctx": {
+      "type": "constructor",
+      "name": "Foo",
+      "string": "Foo()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "type",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>A property of an instance of Foo</p>",
+      "summary": "<p>A property of an instance of Foo</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 12,
+    "codeStart": 16,
+    "code": "Foo.prototype.property = 'this is a property'",
+    "ctx": {
+      "type": "property",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "property",
+      "value": "'this is a property'",
+      "string": "Foo.prototype.property"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "return",
+        "string": "{Boolean}",
+        "types": [
+          "Boolean"
+        ],
+        "typesDescription": "<code>Boolean</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Boolean}</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>A method of an instance of Foo</p>",
+      "summary": "<p>A method of an instance of Foo</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 18,
+    "codeStart": 22,
+    "code": "Foo.prototype.method = function () {\n  return false\n}",
+    "ctx": {
+      "type": "method",
+      "constructor": "Foo",
+      "cons": "Foo",
+      "name": "method",
+      "string": "Foo.prototype.method()"
+    }
+  }
+]

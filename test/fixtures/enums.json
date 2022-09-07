@@ -1,0 +1,73 @@
+[
+  {
+    "tags": [
+      {
+        "type": "enum",
+        "string": "",
+        "types": [],
+        "typesDescription": "",
+        "variable": false,
+        "nonNullable": false,
+        "nullable": false,
+        "optional": false,
+        "html": ""
+      }
+    ],
+    "description": {
+      "full": "<p>FSM states.</p>",
+      "summary": "<p>FSM states.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 6,
+    "code": "FSM.prototype.states = {\n    STOPPED     : 0,\n    STARTING    : 1,\n    WORKING     : 2,\n    STOPPING    : 3\n};",
+    "ctx": {
+      "type": "property",
+      "constructor": "FSM",
+      "cons": "FSM",
+      "name": "states",
+      "value": "{",
+      "string": "FSM.prototype.states"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "enum",
+        "string": "",
+        "types": [],
+        "typesDescription": "",
+        "variable": false,
+        "nonNullable": false,
+        "nullable": false,
+        "optional": false,
+        "html": ""
+      }
+    ],
+    "description": {
+      "full": "<p>Colors.</p>",
+      "summary": "<p>Colors.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 14,
+    "codeStart": 19,
+    "code": "exports.RED     = \"#f00\";\nexports.GREEN   = \"#0f0\";\nexports.BLUE    = \"#00f\";\nexports.BLACK   = \"#000\";\nexports.WHITE   = \"#fff\";",
+    "ctx": {
+      "type": "property",
+      "receiver": "exports",
+      "name": "RED",
+      "value": "\"#f00\"",
+      "string": "exports.RED"
+    }
+  }
+]

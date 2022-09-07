@@ -1,0 +1,52 @@
+[
+  {
+    "tags": [
+      {
+        "type": "alias",
+        "string": "hello",
+        "html": "<p>hello</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Alias Tag Used</p>",
+      "summary": "<p>Alias Tag Used</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 6,
+    "code": "window.hello = function() {\n\n}",
+    "ctx": {
+      "type": "method",
+      "receiver": "window",
+      "name": "hello",
+      "string": "window.hello()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Alias Tag Unused</p>",
+      "summary": "<p>Alias Tag Unused</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 10,
+    "codeStart": 13,
+    "code": "window.hello = function() {\n\n}",
+    "ctx": {
+      "type": "method",
+      "receiver": "window",
+      "name": "hello",
+      "string": "window.hello()"
+    }
+  }
+]

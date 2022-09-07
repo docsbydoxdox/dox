@@ -1,0 +1,447 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Dox<br />\nCopyright (c) 2010 TJ Holowaychuk <a href=\"mailto:tj@vision-media.ca\">tj@vision-media.ca</a><br />\nMIT Licensed</p>",
+      "summary": "<p>Dox<br />\nCopyright (c) 2010 TJ Holowaychuk <a href=\"mailto:tj@vision-media.ca\">tj@vision-media.ca</a><br />\nMIT Licensed</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": true,
+    "line": 2,
+    "codeStart": 7
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Module dependencies.</p>",
+      "summary": "<p>Module dependencies.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 12,
+    "code": "var markdown = require('github-flavored-markdown').parse;",
+    "ctx": {
+      "type": "declaration",
+      "name": "markdown",
+      "value": "require('github-flavored-markdown').parse",
+      "string": "markdown"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Library version.</p>",
+      "summary": "<p>Library version.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 14,
+    "codeStart": 18,
+    "code": "exports.version = '0.0.5';",
+    "ctx": {
+      "type": "property",
+      "receiver": "exports",
+      "name": "version",
+      "value": "'0.0.5'",
+      "string": "exports.version"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} js",
+        "name": "js",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} js</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Array}",
+        "types": [
+          "Array"
+        ],
+        "typesDescription": "<code>Array</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Array}</p>"
+      },
+      {
+        "type": "see",
+        "string": "exports.parseComment",
+        "local": "exports.parseComment",
+        "html": "<p>exports.parseComment</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse comments in the given string of <code>js</code>.</p>",
+      "summary": "<p>Parse comments in the given string of <code>js</code>.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 20,
+    "codeStart": 29,
+    "code": "exports.parseComments = function(js){\n  var comments = []\n    , comment\n    , buf = ''\n    , ignore\n    , within\n    , code;\n\n  for (var i = 0, len = js.length; i < len; ++i) {\n    // start comment\n    if ('/' == js[i] && '*' == js[i+1]) {\n      // code following previous comment\n      if (buf.trim().length) {\n        comment = comments[comments.length - 1];\n        comment.code = code = buf.trim();\n        comment.ctx = exports.parseCodeContext(code);\n        buf = '';\n      }\n      i += 2;\n      within = true;\n      ignore = '!' == js[i];\n    // end comment\n    } else if ('*' == js[i] && '/' == js[i+1]) {\n      i += 2;\n      buf = buf.replace(/^ *\\* ?/gm, '');\n      var comment = exports.parseComment(buf);\n      comment.ignore = ignore;\n      comments.push(comment);\n      within = ignore = false;\n      buf = '';\n    // buffer comment or code\n    } else {\n      buf += js[i];\n    }\n  }\n\n  // trailing code\n  if (buf.trim().length) {\n    comment = comments[comments.length - 1];\n    code = buf.trim();\n    comment.code = code;\n  }\n\n  return comments;\n};",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseComments",
+      "string": "exports.parseComments()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} str",
+        "name": "str",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} str</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Object}",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Object}</p>"
+      },
+      {
+        "type": "see",
+        "string": "exports.parseTag",
+        "local": "exports.parseTag",
+        "html": "<p>exports.parseTag</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse the given comment <code>str</code>.</p>\n<h2>The comment object returned contains the following</h2>\n<ul>\n<li><code>tags</code>  array of tag objects</li>\n<li><code>description</code> the first line of the comment</li>\n<li><code>body</code> lines following the description</li>\n<li><code>content</code> both the description and the body</li>\n<li><code>isPrivate</code> true when &quot;@api private&quot; is used</li>\n</ul>",
+      "summary": "<p>Parse the given comment <code>str</code>.</p>",
+      "body": "<h2>The comment object returned contains the following</h2>\n<ul>\n<li><code>tags</code>  array of tag objects</li>\n<li><code>description</code> the first line of the comment</li>\n<li><code>body</code> lines following the description</li>\n<li><code>content</code> both the description and the body</li>\n<li><code>isPrivate</code> true when &quot;@api private&quot; is used</li>\n</ul>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 75,
+    "codeStart": 92,
+    "code": "exports.parseComment = function(str) {\n  str = str.trim();\n  var comment = { tags: [] }\n    , description = {};\n\n  // parse comment body\n  description.full = str.split('@')[0].replace(/^([\\w ]+):/gm, '## $1');\n  description.summary = description.full.split('\\n\\n')[0];\n  description.body = description.full.split('\\n\\n').slice(1).join('\\n\\n');\n  comment.description = description;\n\n  // parse tags\n  if (~str.indexOf('@')) {\n    var tags = '@' + str.split('@').slice(1).join('@');\n    comment.tags = tags.split('\\n').map(exports.parseTag);\n    comment.isPrivate = comment.tags.some(function(tag){\n      return 'api' == tag.type && 'private' == tag.visibility;\n    })\n  }\n\n  // markdown\n  description.full = markdown(escape(description.full));\n  description.summary = markdown(escape(description.summary));\n  description.body = markdown(escape(description.body));\n\n  return comment;\n}",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseComment",
+      "string": "exports.parseComment()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String}",
+        "name": "",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String}</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Object}",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Object}</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse tag string &quot;@param {Array} name description&quot; etc.</p>",
+      "summary": "<p>Parse tag string &quot;@param {Array} name description&quot; etc.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 120,
+    "codeStart": 128,
+    "code": "exports.parseTag = function(str) {\n  var tag = {} \n    , parts = str.split(/ +/)\n    , type = tag.type = parts.shift().replace('@', '');",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseTag",
+      "string": "exports.parseTag()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>shouldn't fail</p>",
+      "summary": "<p>shouldn't fail</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 133,
+    "codeStart": 134,
+    "code": "switch (type) { // asfasdfasdf /** /////\n  case 'param':\n    tag.types = exports.parseTagTypes(parts.shift());\n    tag.name = parts.shift() || '';\n    tag.description = parts.join(' ');\n    break;\n  case 'return':\n    tag.types = exports.parseTagTypes(parts.shift());\n    tag.description = parts.join(' ');\n    break;\n  case 'see':\n    if (~str.indexOf('http')) {\n      tag.title = parts.length > 1\n        ? parts.shift()\n        : '';\n      tag.url = parts.join(' ');\n    } else {\n      tag.local = parts.join(' ');\n    }\n  case 'api':\n    tag.visibility = parts.shift();\n    break;\n  case 'type':\n    tag.types = exports.parseTagTypes(parts.shift());\n    break;\n}\n\nreturn tag;\n}",
+    "ctx": {
+      "type": "method",
+      "name": "switch",
+      "string": "switch()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} str",
+        "name": "str",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} str</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Array}",
+        "types": [
+          "Array"
+        ],
+        "typesDescription": "<code>Array</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Array}</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse tag type string &quot;{Array|Object}&quot; etc.</p>",
+      "summary": "<p>Parse tag type string &quot;{Array|Object}&quot; etc.</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 164,
+    "codeStart": 172,
+    "code": "exports.parseTagTypes = function(str) {\n  return str\n    .replace(/[{}]/g, '')\n    .split(/ *[|,\\/] */);\n};",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseTagTypes",
+      "string": "exports.parseTagTypes()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} str",
+        "name": "str",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} str</p>"
+      },
+      {
+        "type": "return",
+        "string": "{Object}",
+        "types": [
+          "Object"
+        ],
+        "typesDescription": "<code>Object</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{Object}</p>"
+      },
+      {
+        "type": "api",
+        "string": "public",
+        "visibility": "public",
+        "html": "<p>public</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse the context from the given <code>str</code> of js.</p>\n<p>This method attempts to discover the context<br />\nfor the comment based on it's code. Currently<br />\nsupports:</p>\n<ul>\n<li>function statements</li>\n<li>function expressions</li>\n<li>prototype methods</li>\n<li>prototype properties</li>\n<li>methods</li>\n<li>properties</li>\n<li>declarations</li>\n</ul>",
+      "summary": "<p>Parse the context from the given <code>str</code> of js.</p>",
+      "body": "<p>This method attempts to discover the context<br />\nfor the comment based on it's code. Currently<br />\nsupports:</p>\n<ul>\n<li>function statements</li>\n<li>function expressions</li>\n<li>prototype methods</li>\n<li>prototype properties</li>\n<li>methods</li>\n<li>properties</li>\n<li>declarations</li>\n</ul>"
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 178,
+    "codeStart": 198,
+    "code": "exports.parseCodeContext = function(str){\n  var str = str.split('\\n')[0];\n\n  // function statement\n  if (/^function (\\w+)\\(/.exec(str)) {\n    return {\n        type: 'function'\n      , name: RegExp.$1\n    };\n  // function expression\n  } else if (/^var *(\\w+) *= *function/.exec(str)) {\n    return {\n        type: 'function'\n      , name: RegExp.$1\n    };\n  // prototype method\n  } else if (/^(\\w+)\\.prototype\\.(\\w+) *= *function/.exec(str)) {\n    return {\n        type: 'method'\n      , constructor: RegExp.$1\n      , name: RegExp.$2\n    };\n  // prototype property\n  } else if (/^(\\w+)\\.prototype\\.(\\w+) *= *([^\\n;]+)/.exec(str)) {\n    return {\n        type: 'property'\n      , constructor: RegExp.$1\n      , name: RegExp.$2\n      , value: RegExp.$3\n    };\n  // method\n  } else if (/^(\\w+)\\.(\\w+) *= *function/.exec(str)) {\n    return {\n        type: 'method'\n      , receiver: RegExp.$1\n      , name: RegExp.$2\n    };\n  // property\n  } else if (/^(\\w+)\\.(\\w+) *= *([^\\n;]+)/.exec(str)) {\n    return {\n        type: 'property'\n      , receiver: RegExp.$1\n      , name: RegExp.$2\n      , value: RegExp.$3\n    };\n  // declaration\n  } else if (/^var +(\\w+) *= *([^\\n;]+)/.exec(str)) {\n    return {\n        type: 'declaration'\n      , name: RegExp.$1\n      , value: RegExp.$2\n    };\n  }\n};",
+    "ctx": {
+      "type": "method",
+      "receiver": "exports",
+      "name": "parseCodeContext",
+      "string": "exports.parseCodeContext()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{String} html",
+        "name": "html",
+        "description": "",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{String} html</p>"
+      },
+      {
+        "type": "return",
+        "string": "{String}",
+        "types": [
+          "String"
+        ],
+        "typesDescription": "<code>String</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "description": "",
+        "html": "<p>{String}</p>"
+      },
+      {
+        "type": "api",
+        "string": "private",
+        "visibility": "private",
+        "html": "<p>private</p>"
+      },
+      {
+        "type": "custom",
+        "string": "With `Markdown` syntax",
+        "html": "<p>With <code>Markdown</code> syntax</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Escape the given <code>html</code>.</p>",
+      "summary": "<p>Escape the given <code>html</code>.</p>",
+      "body": ""
+    },
+    "isPrivate": true,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 253,
+    "codeStart": 262,
+    "code": "function escape(html){\n  return String(html)\n    .replace(/&(?!\\w+;)/g, '&amp;')\n    .replace(/</g, '&lt;')\n    .replace(/>/g, '&gt;');\n}",
+    "ctx": {
+      "type": "function",
+      "name": "escape",
+      "string": "escape()"
+    }
+  }
+]

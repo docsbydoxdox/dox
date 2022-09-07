@@ -1,0 +1,17 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>something else</p>",
+      "summary": "<p>something else</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 9,
+    "codeStart": 10
+  }
+]

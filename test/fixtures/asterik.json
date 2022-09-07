@@ -1,0 +1,118 @@
+[
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>One</p>",
+      "summary": "<p>One</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 1,
+    "codeStart": 4,
+    "code": "var one = function() {\n    return ['**/**', '*/*', '*/**', '**/*'].join('');\n}",
+    "ctx": {
+      "type": "function",
+      "name": "one",
+      "string": "one()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{number} num",
+        "name": "num",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{number} num</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Two</p>",
+      "summary": "<p>Two</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 8,
+    "codeStart": 12,
+    "code": "var two = function(num) {\n    return num * 2;\n}",
+    "ctx": {
+      "type": "function",
+      "name": "two",
+      "string": "two()"
+    }
+  },
+  {
+    "tags": [],
+    "description": {
+      "full": "<p>Three</p>",
+      "summary": "<p>Three</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 16,
+    "codeStart": 19,
+    "code": "let three = function() {\n    return ['**/**', '*/*', '*/**', '**/*'].join('');\n}",
+    "ctx": {
+      "type": "function",
+      "name": "three",
+      "string": "three()"
+    }
+  },
+  {
+    "tags": [
+      {
+        "type": "param",
+        "string": "{number} num",
+        "name": "num",
+        "description": "",
+        "types": [
+          "number"
+        ],
+        "typesDescription": "<code>number</code>",
+        "optional": false,
+        "nullable": false,
+        "nonNullable": false,
+        "variable": false,
+        "html": "<p>{number} num</p>"
+      }
+    ],
+    "description": {
+      "full": "<p>Four</p>",
+      "summary": "<p>Four</p>",
+      "body": ""
+    },
+    "isPrivate": false,
+    "isConstructor": false,
+    "isClass": false,
+    "isEvent": false,
+    "ignore": false,
+    "line": 23,
+    "codeStart": 27,
+    "code": "const four = function(num) {\n    return num * 2;\n}",
+    "ctx": {
+      "type": "function",
+      "name": "four",
+      "string": "four()"
+    }
+  }
+]
