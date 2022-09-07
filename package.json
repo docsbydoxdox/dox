@@ -38,6 +38,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "test:jest": "npx jest test/fixtures.spec.js"
   }
 }
